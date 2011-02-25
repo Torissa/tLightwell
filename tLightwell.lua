@@ -54,15 +54,6 @@ function tLightwell:Optionen()
 	AceConfigDialog:AddToBlizOptions("tLightwell", "tLightwell");
 end
 
--- Für Test Zwecke
--- GameTooltip:HookScript("OnTooltipSetSpell", function(self)
-	-- local id = select(3,self:GetSpell())
-	-- if id then
-		-- self:AddLine("|cFFCA3C3C"..ID.."|r".." "..id)
-		-- self:Show()
-	-- end
--- end)
-
 	  
 local tLightwell = CreateFrame("Frame", "tLightwell", UIParent)
 tLightwell:RegisterEvent("COMBAT_LOG_EVENT_UNFILTERED")
