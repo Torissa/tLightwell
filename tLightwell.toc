@@ -1,0 +1,13 @@
+## Interface: 40000
+## Author: Torissa
+## Version: 0.2b
+## Title: |cffC495DDtLight|rwell
+## Notes: Lightwell announce
+## Notes-deDE: Gibt eine Nachricht aus wenn der Lichtbrunnen gestellt wurde
+## SavedVariables: tLightwellDB
+embeds.xml
+
+locales\deDE.lua
+locales\enUS.lua
+
+tLightwell.lua
